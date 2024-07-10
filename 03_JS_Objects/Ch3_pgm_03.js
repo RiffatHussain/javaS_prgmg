@@ -10,7 +10,24 @@ book = {
 
 console.log(book);
 
+// 1.
+book = {
+    title : "The Hobbit, or There and Back Again",
+    author : "J. R. R. Tolkien",
+    published : 1937
+};
 
+// 2.
+var book2;
+
+book2 = {
+    title : "One Piece",
+    author : "Eichira Oda",
+    published : 1998
+};
+
+// 3.
+console.log(book2);
 
 /* Further Adventures
  *

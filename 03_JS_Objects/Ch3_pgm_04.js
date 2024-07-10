@@ -2,8 +2,14 @@
 
 var book;
 
-book = {};
+book = {
 
+
+    
+};
+
+// 1.
+console.log(book);
 
 /* Further Adventures
  *

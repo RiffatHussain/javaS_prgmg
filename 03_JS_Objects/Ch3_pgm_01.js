@@ -8,7 +8,26 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
+// 1.
+var book2_Title;
+var book2_Author;
 
+book2_Title = "One Piece";
+book2_Author = "Eichira Oda";
+
+// 2.
+var book3_Title;
+var book3_Author;
+
+book3_Title = "Game of Thrones";
+book3_Author = "George R.R Martin";
+
+const books = [
+    {
+        "book title": 'One Piece',
+        "book author": 'Eichira Oda'
+    }
+]
 
 /* Further Adventures
  *
