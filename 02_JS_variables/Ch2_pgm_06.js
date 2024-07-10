@@ -8,7 +8,14 @@ locationName = "Argentina";
 
 console.log(playerName + " is in " + locationName);
 
+//1)
+let score;
 
+//2)
+score = 90;
+
+//3)
+console.log('Christiano Ronaldo has a score of ' + score);
 
 /* Further Adventures
  *

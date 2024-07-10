@@ -4,6 +4,18 @@ var score;
 score = 100;
 console.log(score);
 
+// 1.
+score = 10;
+
+// 2.
+let score2;
+
+// 3.
+score2 = 90;
+
+// 4.
+console.log(score2);
+
 
 
 /* Further Adventures

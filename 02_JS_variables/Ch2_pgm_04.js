@@ -1,12 +1,23 @@
 // Variables vary
 
 var score;
-score = 100;
+score = 10;
 console.log(score);
 
 score = 150;
 console.log(score);
 
+let score2;
+score2 = 200;
+console.log(score2);
+
+//altered the value of the variable after it has been displayed on the console
+
+score2 = 300;
+
+// to display the new value of the variable
+
+console.log(score2);
 
 
 /* Further Adventures

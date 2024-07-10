@@ -8,7 +8,17 @@ console.log(message);
 message = 'Congratulations! Your tweet has won a prize...';
 console.log(message);
 
+//1)
+message = "You have nailed it!";
+console.log(message);
 
+//2)
+message = " Hello" + " World.";
+console.log(message);
+
+//3) 
+message = 'Congratulations! ' + 'Your tweet has won a' + ' price...';
+console.log(message);
 
 /* Further Adventures
  *

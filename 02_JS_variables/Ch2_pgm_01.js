@@ -2,6 +2,16 @@
 
 var score;
 
+// 1.
+var score
+
+// 2.
+var score;
+
+// 3.
+var firstName;
+var lastName;
+
 /* Further Adventures
  *
  * 1) Delete the semicolon at after the word score.
