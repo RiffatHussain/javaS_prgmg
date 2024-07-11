@@ -10,6 +10,16 @@ var questionAndAnswer = {
 	marksForQuestion: 2
 };
 
+// 1. 
+console.log(questionAndAnswer.question);
+console.log("a) " + questionAndAnswer.answer1);
+console.log("b) " + questionAndAnswer.answer2);
+console.log("c) " + questionAndAnswer.answer3);
+console.log("d) " + questionAndAnswer.answer4);
+
+console.log("The Correct answer is : " + questionAndAnswer.correctAnswer);
+
+console.log("The marks for Questions: " + questionAndAnswer.marksForQuestion);
 
 
 /* Further Adventures

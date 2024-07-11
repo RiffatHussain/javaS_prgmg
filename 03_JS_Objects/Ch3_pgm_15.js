@@ -14,7 +14,19 @@ console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
+// 1.
+player2 = {
+    name: "Luffy",
+    health: 100,
+    place: "King of the Pirates",
+    items: "Devil Fruit Powers, The Fifth Emperor, a younger Yonko"
+};
 
+// 2.
+console.log(player2.name);
+console.log(player2.name + " is in " + player2.place);
+console.log(player2.name + " has health " + player2.health);
+console.log("Items: " + player2.items);
 
 /* Further Adventures
  *

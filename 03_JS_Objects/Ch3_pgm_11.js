@@ -13,7 +13,26 @@ player1.score = player1.score + 50;
 
 console.log(player1.name + " has scored " + player1.score);
 
+// 1.
+player1.score += 10;
 
+// 2.
+var player2;
+
+player2 = {
+	name : "Zoro",
+	score : 20
+};
+
+player2.score += 30;
+
+// 3.
+
+let sum = player1.score + player2.score;
+
+console.log("The " + player1.name + " & " + player2.name + " has scored around " + sum + " scores.");
+console.log(player1.name + " has scored " + player1.score);
+console.log(player2.name + " has scored " + player2.score);
 
 /* Further Adventures
  *
