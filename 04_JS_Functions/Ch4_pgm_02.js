@@ -40,7 +40,28 @@ console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
 
+// 1.
+var movie4;
 
+movie4 = {
+  title: "Avengers",
+  actors: "Robert Drowney, christopher HelmsWorth",
+  directors: "Stanlee"
+};
+
+// 3.
+var calendar;
+
+calendar = {
+  'Event_1': 'Freshers Day',
+  'Event_2' : 'Teachers Day',
+  'Event_3' : 'Onam'
+};
+
+// 4.
+console.log("Event-1 : " + calendar.Event_1);
+console.log("Event-2 : " + calendar.Event_2);
+console.log("Event-3 : " + calendar.Event_3);
 
 /* Further Adventures
  *

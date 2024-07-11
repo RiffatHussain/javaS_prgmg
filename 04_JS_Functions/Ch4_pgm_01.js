@@ -14,7 +14,36 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
 
+// 1.
 
+var movie2;
+
+movie2 = {
+  title: "Interstellar",
+  actors: "Matthew, Jessica",
+  directors: "Christopher Nolan"
+};
+
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("------------------------------");
+
+// 2.
+
+var blogpost;
+
+blogpost = {
+  name : 'Riffat',
+  role : 'Full Stack Developer',
+  age : 21
+};
+
+// 3.
+console.log("Name - " + blogpost.name);
+console.log("ROle - " + blogpost.role);
+console.log("Age - " + blogpost.age);
 
 /* Further Adventures
  *

@@ -14,7 +14,24 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
+// 1.
+let number1;
+let number2;
+let result;
 
+// 2.
+number1 = 10;
+number2 = 20;
+result = number1 + number2;
+
+// 3.
+findTotal();
+
+// 4.
+console.log(result);
+
+// 5.
+displayMenu();
 
 /* Further Adventures
  *
