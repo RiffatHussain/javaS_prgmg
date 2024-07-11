@@ -3,7 +3,7 @@
 var book;
 
 book = {
-  title     : "The Hobbit",
+    title     : "The Hobbit",
 	author    : "J. R. R. Tolkien",
 	published : 1937
 };
@@ -11,7 +11,21 @@ book = {
 console.log(book.title);
 console.log(book.author);
 
+// 1.
+console.log(book.published);
 
+// 2.
+book2 = {
+	title : "One Piece",
+	author : "Echira Oda",
+	published : 1998
+};
+
+// 3. 
+console.log(book2);
+console.log(book2.title);
+console.log(book2.author);
+console.log(book2.published);
 
 /* Further Adventures
  *

@@ -9,7 +9,13 @@ book = {
     title : bookName
 };
 
+// 3. 
+bookName = "One piece";
 
+book = {
+    title: bookName
+};
+console.log(book);
 
 /* Further Adventures
  *
