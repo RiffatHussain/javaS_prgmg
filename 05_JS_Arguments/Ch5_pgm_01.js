@@ -3,10 +3,10 @@
 var message;
 var showMessage;
 
-message = "It's full of stars!";
+message = "The moon is Beautiful, Is'nt it ?"; //message changed
 
 showMessage = function () {
-	console.log(message);
+	console.log(msg); //changed to msg as said, in the console , it shows that msg is not defined.
 };
 
 showMessage();

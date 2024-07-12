@@ -4,9 +4,13 @@ var msg;
 var showMessage;
 
 msg = "It's full of stars!";
+let msg2 = "The moon is beautiful, Is'nt it ?";
 
 showMessage = function () {
-	console.log(message);
+	console.log(msg); //Updated and the program executed successfully
+	console.log(msg2); //displayed successfully
+
+	console.log(msg + msg2); //Concating the two variables in order to join the two strings.
 };
 
 showMessage();

@@ -3,10 +3,12 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: " + message + " That's Wonderful");
 };
 
 showMessage("It's full of stars!");
+showMessage("The moon is beautiful, Is'nt it ?");
+showMessage("The Sky is beautiful");
 
 
 
