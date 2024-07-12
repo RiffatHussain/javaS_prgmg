@@ -10,8 +10,19 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
+// 1. It showed a reference error as it was called before initialization
 
+// 2.
+let movie;
 
+// 3.
+movie = {
+    title : "Avengers",
+    actors: ["ChrisHemsworth ,SteveRogers"],
+    directors: "Stanlee"
+};
+
+showMovieInfo();
 /* Further Adventures
  *
  * 1) Add a call to showMovieInfo and run the program.

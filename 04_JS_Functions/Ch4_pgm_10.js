@@ -22,7 +22,18 @@ movie = movie1;
 
 showMovieInfo();
 
+// 1.
+movie = movie2;
 
+// 2.
+movie2 = {
+  title: "Interstaller",
+  actors: "Jessica, Mathew",
+  directors: "Christopher Nolan"
+};
+
+showMovieInfo();
+ // 3. I get an output that movie2 is not defined.
 
 /* Further Adventures
  *

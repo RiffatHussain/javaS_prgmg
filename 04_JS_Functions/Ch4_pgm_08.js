@@ -7,11 +7,20 @@ displayMenu = function () {
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
+	console.log("(10) Restart");
+	console.log("(5) Shutdown"); // Added two more options
+
 };
 
 displayMenu();
 
+// 2. 
+function displayMyMenu() {
+	console.log("Welcome to JavaScript Tutorial \n Hope you do the best!")
+}
 
+// 3. 
+displayMyMenu();
 
 /* Further Adventures
  *

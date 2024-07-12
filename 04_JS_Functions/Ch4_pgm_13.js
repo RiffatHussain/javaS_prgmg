@@ -32,7 +32,20 @@ showPlayerInfo();
 player = player2;
 showPlayerInfo();
 
+// 1.
+function playerPlace(player) {
+    console.log("The " + player.name + "is in the place : " + player.place) ;
+}
 
+function playerHealth(player) {
+    console.log("The " + player.name + "has health is: " + player.health);
+}
+
+playerPlace(player1);
+playerHealth(player1); //By passing the player objects as arguments it can be consoled specifically.
+console.log("------------------------------");
+// For Eg: Player 2 health alone must be displayed.
+playerHealth(player2);
 
 /* Further Adventures
  *

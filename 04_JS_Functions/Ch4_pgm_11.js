@@ -41,7 +41,21 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+// 1. 
+let MultipleChoiceQuiz = {
+    question: ["What language is mostly used in Front-end Ddevelopment ?","who is the founder of JavaScript ?"],
+    answer : ["JavaScript","Brendan Eich"]
+};
 
+// 3. 
+function displayInfo() {
+    console.log(MultipleChoiceQuiz.question[0],"\n");
+    console.log(MultipleChoiceQuiz.answer[0],"\n");
+    console.log(MultipleChoiceQuiz.question[1],"\n");
+    console.log(MultipleChoiceQuiz.answer[1],"\n");
+}
+// 4.
+displayInfo();
 
 /* Further Adventures
  *

@@ -3,15 +3,21 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello \nWorld!"); //Updated
 };
 
 sayHello();
 sayHello();
 sayHello();
 
-
-
+// 3.
+function Display() {
+	let name = "Hello World!";
+	for (let i = 0; i <name.length; i++) {
+		console.log(name.charAt(i));
+	}
+}
+Display();
 /* Further Adventures
  *
  * 1) Change the message from the sayHello function.

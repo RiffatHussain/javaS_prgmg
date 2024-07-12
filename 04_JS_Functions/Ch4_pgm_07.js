@@ -1,17 +1,18 @@
 // Using the findTotal function to display a calculation
 
-var number1 = 1000;
-var number2 = 66;
+var number1 = 100;
+var number2 = 70; // Number 1 and Number 2 Changed
+var number3 = 20; // Third variable assigned
 var result;
 var findTotal;
 
 findTotal = function () {
-	result = number1 + number2;
+	result = number1 + number2 + number3; // Updated findTotal() function
 };
 
 findTotal();
 
-console.log(number1 + " + " + number2 + " = " + result);
+console.log(number1 + " + " + number2 + " + " + number3 + " = " + result);
 
 
 
