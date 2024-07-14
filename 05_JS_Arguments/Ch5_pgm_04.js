@@ -3,8 +3,14 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: \n" + message);// Updated
 };
+
+// 2.
+let myMessage = 'Welcome to JavaScript Tutorial';
+
+// 3.
+showMessage(myMessage);
 
 showMessage("It's full of stars!");
 showMessage("Hello to Jason Isaacs");

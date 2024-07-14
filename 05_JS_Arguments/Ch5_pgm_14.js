@@ -41,7 +41,19 @@ var player2 = {
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
 
+// 1.
+function showLine(str, num, name){ 
+    
+    let line = '***********************'; // Declared and Assigned a line variable 
 
+    console.log(str.repeat(num));
+    console.log(line.substring(0,name.length + 2));
+    console.log(str + name + str);
+    console.log(line.substring(0,name.length + 2));
+};
+
+showLine('*',5, 'riffat');
+showLine('*',20 , 'hari'); // Updated the output is shown in the box;
 
 
 /* Further Adventures

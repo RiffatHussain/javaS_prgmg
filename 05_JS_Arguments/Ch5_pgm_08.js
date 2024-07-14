@@ -5,7 +5,8 @@ var player2;
 var showPlayerName;
 
 showPlayerName = function (playerName) {
-    console.log(playerName);
+    console.log(playerName.toUpperCase()); // Updated to show the name in Uppercase.
+    console.log(playerName.toLowerCase()); // Updated tp show the name in lowercase.
 };
 
 player1 = {

@@ -3,12 +3,20 @@
 var showPlayerHealth;
 
 showPlayerHealth = function (playerName, playerHealth) {
-    console.log(playerName + " has health " + playerHealth);
+    var healthInfo; // Declared a variable
+    healthInfo = playerName + ": health " + playerHealth; // Assigned values to the values
+
+    console.log(playerName + " : health " + playerHealth + '.'); // Updated 
 };
 
 showPlayerHealth("Kandra", 50);
 showPlayerHealth("Dax", 40);
 
+// 2.
+showPlayerHealth('Riffat' , 100);
+
+// 5.
+console.log(showPlayerHealth('Riffat' , 100));
 
 
 /* Further Adventures

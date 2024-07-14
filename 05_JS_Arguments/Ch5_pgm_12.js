@@ -5,7 +5,8 @@ var player2;
 var showPlayerPlace;
 
 showPlayerPlace = function (playerName, playerPlace) {
-    console.log(playerName + " is in " + playerPlace);
+    console.log(playerName.substring(1,3) + " is in " + playerPlace); //Updated
+    // 4. It will takes the first argument as the starting index position and the second argument as the last index position, and it does'nt returns the last index position character, that's how it works.
 };
 
 player1 = {

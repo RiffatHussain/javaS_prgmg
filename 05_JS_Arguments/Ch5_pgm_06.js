@@ -10,7 +10,40 @@ showSum = function (number1, number2) {
 showSum(30, 23);
 showSum(2.8, -5);
 
+// 1.
+showSum(56, 74);
+ 
+// 2.
+let showProduct = (num1, num2) => {
+	product = num1 * num2;
+	console.log('The Product of the two Numbers is: ' + product);
+};
 
+showProduct(5,10);
+
+// 3.
+let output = (num1, num2, num3) => {
+	result = num1 * num2 * num3;
+	console.log('The product of the Numbers : ' + result);
+};
+
+output(2,4,6);
+
+// 4.
+let showDifference = (num1,num2) => {
+	result = num1 - num2;
+	console.log('The difference of the Numbers is : ' + result);
+};
+
+showDifference(10,5);
+
+// 5.
+let showQuotient = (num1,num2) => {
+	result = num1 / num2;
+	console.log('The Division of the two Numbers are : ' + result);
+}
+
+showQuotient(30,5);
 
 /* Further Adventures
  *

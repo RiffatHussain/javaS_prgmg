@@ -13,6 +13,22 @@ square(-2);
 square(1111);
 square(0.5);
 
+// 1.
+let cube = function(numberToCube) {
+  let output;
+  output = numberToCube * numberToCube * numberToCube;
+  console.log(numberToCube + ' * '  + numberToCube + ' * ' + numberToCube + ' = ' + output);
+};
+
+// 2.
+cube(10);
+cube(-4);
+cube(1111);
+cube(0.6);
+
+// 3.
+let num = Math.sqrt(9);
+console.log(num); // Output verified.
 
 
 /* Further Adventures
