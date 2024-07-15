@@ -10,12 +10,21 @@ planet1 = {
     radius: 69911,
     sizeRank: 1
 };
+// 1.
+let planet2 = {
+    name: 'Earth',
+    position: 3,
+    type: 'terrestial',
+    radius: 6371,
+    sizeRank: 5
+};
 
 getPlanetInfo = function (planet) {
-    return planet.name + ": planet number " + planet.position;
+    return planet.name + "\nplanet number : " + planet.position + "\ntype : " + planet.type + " \nsizeRanking among the solarSystem is : " + planet.sizeRank; 
 };
 
 console.log(getPlanetInfo(planet1));
+console.log(getPlanetInfo(planet2)); // using the function to log the planet2
 
 
 

@@ -2,9 +2,10 @@
 
 var message = "We choose to go to the Moon!";
 
-var charIndex = message.indexOf("M");
+var charIndex = message.indexOf("c");
+var charLastIndexOf = message.lastIndexOf('o'); // Updated
 
-console.log(message.substr(charIndex, 3));
+console.log(message.substr(charLastIndexOf, 2)); // Updated Choose is logged in the console.
 
 
 

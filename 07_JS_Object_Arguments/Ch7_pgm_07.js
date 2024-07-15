@@ -5,7 +5,19 @@ var bigPlanet = planet.toUpperCase();
 
 console.log(planet + " becomes " + bigPlanet);
 
+// 1.
+let getBig = function (str) {
+    return str.toUpperCase();
 
+};
+console.log(getBig('Riffat'));
+
+// 2.
+let getSmall = function(str) {
+    return str.toLowerCase();
+};
+
+console.log(getSmall('RIFFAT'));
 
 /* Further Adventures
  *

@@ -10,7 +10,13 @@ var line = function (lineLength) {
   console.log(line(30));
   console.log(line(40));
   console.log(line(50));
-  
+
+// 2. 
+var spaces = function (spaceLength) {
+  var spaces = "                                        ";
+  spaceLength = Math.max(0,spaceLength);
+  spaceLength = Math.min(20, spaceLength);
+};
   
   
   /* Further Adventures
