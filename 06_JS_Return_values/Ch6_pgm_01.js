@@ -11,8 +11,12 @@ response = getMessage();
 
 console.log(response);
 
+// 1. 
+let getMyMessage = function () {
+    return 'welcome to the Return Values Tutorial';
+}
 
-
+console.log(getMyMessage());
 /* Further Adventures
  *
  * 1) Write a getMyMessage function

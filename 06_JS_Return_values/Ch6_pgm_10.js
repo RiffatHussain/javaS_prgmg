@@ -16,7 +16,13 @@ var getBorder = function () {
     return "================================";
 };
 
-var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
+// 2.
+let getPlayerItems = (playerName, playerItem) => {
+    return `${playerName} has item : ${playerItem}`;
+}
+
+
+var getPlayerInfo = function (playerName, playerPlace, playerHealth, playerItem) { // Added the fourth argument
     var playerInfo;
 
     playerInfo = "\n" + getPlayerName(playerName);
@@ -24,6 +30,7 @@ var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
     playerInfo += "\n" + getPlayerPlace(playerName, playerPlace);
     playerInfo += "\n" + getPlayerHealth(playerName, playerHealth);
     playerInfo += "\n" + getBorder();
+    playerInfo += "\n" + getPlayerItems(playerName, playerItem); // Included the getPlayerItem function call
     playerInfo += "\n";
 
     return playerInfo;
@@ -32,17 +39,19 @@ var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 var player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
-    health: 50
+    health: 50,
+    items: "a rusty key" // Added an item
 };
 
 var player2 = {
     name: "Dax",
     place: "The Old Library",
-    health: 40
+    health: 40,
+    items: "a piece of cheese" //Added an item
 };
 
-console.log(getPlayerInfo(player1.name, player1.place, player1.health));
-console.log(getPlayerInfo(player2.name, player2.place, player2.health));
+console.log(getPlayerInfo(player1.name, player1.place, player1.health, player1.items)); // Updated
+console.log(getPlayerInfo(player2.name, player2.place, player2.health, player2.items)); // Updated
 
 
 

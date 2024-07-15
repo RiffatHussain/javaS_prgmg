@@ -3,10 +3,14 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    //let p = '=';
+    //return `${p.repeat(4)} ${playerName} ${p.repeat(4)}`; //Updated
+    let r = '|';
+    return `${r}\n${r} ${playerName} \n${r}`; //Updated
 };
 
 console.log(getPlayerName("Kandra"));
+console.log()
 
 
 

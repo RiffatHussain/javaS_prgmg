@@ -36,6 +36,7 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 };
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
+getPlayerInfo(); // called without passing any arguments in the prompt
 
 
 

@@ -3,7 +3,10 @@
 var getHelloTo;
 
 getHelloTo = function (name) {
-    return "Hello to " + name;
+    var template = 'Hello to {{name}}'; // Updated
+    template = template.replace("{{name}}", name);
+    // return "Hello to " + name;
+    return template; // A function accepts only first occurence of the return (i.e it only have one return) 
 };
 
 console.log(getHelloTo("Kandra"));

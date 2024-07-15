@@ -5,14 +5,20 @@ var add;
 add = function (number1, number2) {
 	var total = number1 + number2;
 
-	return total;
+	return `The sum of ${number1} and ${number2} is ${total}`; //Updated
 };
 
-var sum = add(50, 23);
+var sum = add(100, 23); //Updated
 
 console.log(sum);
 
+// 4.
+let summ = (num1, num2, num3) => {
+	let result = num1 + num2 + num3;
+	return result;
+}
 
+console.log(summ(10,20,34));
 
 /* Further Adventures
  *

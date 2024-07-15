@@ -2,11 +2,14 @@
 
 var totalCost;
 
-totalCost = function (callOutCharge, costPerHour, numberOfHours) {
-	return callOutCharge + costPerHour * numberOfHours;
+totalCost = function (callOutCharge, costPerHour, numberOfHours, discounts) { //Updated the fourth argument - discount
+	let total = callOutCharge + costPerHour * numberOfHours;
+	total -= discounts;
+
+	return total; // Output $130 has been verified
 };
 
-console.log("$" + totalCost(30, 40, 3));
+console.log("$" + totalCost(30, 40, 3, 20)); // Updates , 12 hours of work costs $510
 
 
 
